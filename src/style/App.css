@@ -79,7 +79,8 @@ li {
 }
 
 .navigation li {
-  margin-right: 15px;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .row {
@@ -107,4 +108,17 @@ header {
   text-align: center;
   font-size: 30px;
   font-weight: 200;
+}
+
+.reset-button {
+  border: 0;
+  outline: 0;
+  text-align: center;
+  background: transparent;
+  color: red;
+  width: 100%;
+}
+
+.reset-button: hover {
+  cursor: pointer;
 }
