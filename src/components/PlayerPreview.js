@@ -4,10 +4,8 @@ const PlayerPreview = props => {
   return (
     <div className="column">
       <img className="avatar" src={props.avatar} alt={`${props.id}_image`} />
-      <h2 className="username">@{props.name}</h2>
-      <button className="reset-button" onClick={() => props.onReset(props.id)}>
-        Reset
-      </button>
+      <h2 className="username">@{props.username}</h2>
+      {props.children}
     </div>
   );
 };
